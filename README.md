@@ -30,7 +30,7 @@ O projeto foi desenvolvido em **C** e faz uso das seguintes estruturas customiza
 
 ## 📊 Benchmarking e Coleta de Dados
 
-Para medir o desempenho real dos algoritmos sob estresse, os testes foram submetidos a instâncias massivas de redes de transporte realistas (como os benchmarks de estradas do **DIMACS**, ex: *USA-road-d.CAL.gr* com cerca de 1.9 milhões de vértices e 4.6 milhões de arestas).
+Para medir o desempenho real dos algoritmos sob estresse, os testes foram submetidos a instâncias massivas de redes de transporte realistas (como os benchmarks de estradas do **DIMACS**(http://www.diag.uniroma1.it/challenge9/download.shtml), ex.:*USA-road-d.CAL.gr* com cerca de 1.9 milhões de vértices e 4.6 milhões de arestas).
 
 ### Métricas Monitoradas:
 1. **Tempo de CPU:** Medido de forma precisa através da biblioteca `<sys/times.h>` (`times()`), isolando o tempo real gasto pelo processador.
